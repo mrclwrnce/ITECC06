@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESPINOSA_ACT1_INTRO.MainPage">
+
+    <Grid RowDefinitions="100, Auto, *"
+          ColumnDefinitions=".75*, .25*"
+          Padding="10"
+          RowSpacing="10"
+          ColumnSpacing="10">
+
+        <Image Grid.ColumnSpan="2" Source="dotnet_bot.png" BackgroundColor="Transparent"/>
+
+        <Entry x:Name="TaskEntry"
+               Placeholder="Enter Task"
+               Grid.Row="1"/>
+
+        <Button Text="add"
+                BackgroundColor="SkyBlue"
+                Grid.Row="1"
+                Grid.Column="1"
+                Clicked="Button_Clicked"/>
+
+        <CollectionView x:Name="ItemsList"
+                        Grid.Row="2"
+                        Grid.ColumnSpan="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="0, 5">
+                        <Frame>
+                            <Label Text="{Binding .}" FontSize="24"/>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+
+
+
+    </Grid>
+
+</ContentPage>
