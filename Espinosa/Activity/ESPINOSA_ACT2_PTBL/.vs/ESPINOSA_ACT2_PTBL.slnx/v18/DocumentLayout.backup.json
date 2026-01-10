@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT2_PTBL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC31E731-A208-4C8F-97BC-588148E94F8F}|ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act2_ptbl\\espinosa_act2_ptbl\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC31E731-A208-4C8F-97BC-588148E94F8F}|ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL.csproj|solutionrelative:espinosa_act2_ptbl\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ESPINOSA_ACT2_PTBL\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL\\MainPage.xaml",
+              "RelativeToolTip": "ESPINOSA_ACT2_PTBL\\MainPage.xaml",
+              "ViewState": "AgIAAPICAAAAAAAAAAAAABADAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:20:07.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
