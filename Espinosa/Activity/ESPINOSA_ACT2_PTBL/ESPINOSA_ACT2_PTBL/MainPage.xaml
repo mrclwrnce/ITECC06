@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESPINOSA_ACT2_PTBL.MainPage">
+
+    <ScrollView>
+        <Grid x:Name="PeriodicTableGrid"
+              RowSpacing="5"
+              ColumnSpacing="5"
+              Padding="10">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Row0-->
+            <Border Grid.Row="0" Grid.Column="0" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10"  Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="H" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Hydrogen" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="He" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Helium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <!--Row1-->
+
+            <Border Grid.Row="1" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Li" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Lithium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Be" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Berylium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="12" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="B" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Boron" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="13" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="C" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Carbon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="14" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="N" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Nitrogen" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="15" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="O" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Oxygen" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="16" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="F" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Flourine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ne" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Neon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <!--Row2-->
+
+            <Border Grid.Row="2" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Na" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Sodium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Mg" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Magnesium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="12" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Al" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Aluminum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="13" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Si" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Silicon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="14" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="P" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Phosphorus" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="15" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="S" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Sulfur" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="16" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Cl" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Chlorine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ar" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Argon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <!--Row3-->
+
+            <Border Grid.Row="3" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="K" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Potassium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ca" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Calcium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="2" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Sc" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Scandium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="3" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ti" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Titanium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="4" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="V" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Vanadium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="5" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Cr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Chromium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="6" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Mn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Manganese" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="7" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Fe" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Iron" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="8" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Co" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Cobalt" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="9" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ni" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Nickel" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="10" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Cu" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Copper" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="11" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Zn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Zinc" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="12" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ga" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Gallium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="13" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ge" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Germanium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="14" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="As" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Arsenic" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="15" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Se" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Selenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="16" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Br" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Bromine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Kr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Krypton" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <!--Row4-->
+
+            <Border Grid.Row="4" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Rb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Rubidium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Sr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Strontium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="2" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Y" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Yttrium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="3" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Zr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Zirconium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="4" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Nb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Niobium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="5" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Mo" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Molybdenum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="6" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Tc" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Technetium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="7" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ru" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Ruthenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="8" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Rh" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Rhodium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="9" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Pd" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Palladium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="10" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ag" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Silver" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="11" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Cd" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Cadmium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="12" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="In" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Indium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="13" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Sn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Tin" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="14" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Sb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Antimony" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="15" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Te" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Tellerium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="16" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="I" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Iodine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Xe" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Xenon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <!--Row5-->
+
+            <Border Grid.Row="5" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Cs" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Caesium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ba" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Barium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="3" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Hf" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Halfnium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="4" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ta" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Tantalum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="5" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="W" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Tungsten" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="6" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Re" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Rhenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="7" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Os" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Osmium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="8" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ir" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Iridium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="9" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Pt" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Platinum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="10" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Au" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Gold" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="11" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Hg" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Mercury" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="12" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Tl" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Thallium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="13" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Pb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Lead" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="14" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Bi" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Bismuth" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="15" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Po" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Polonium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="16" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="At" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Astatine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Rn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Radon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <!--Row6-->
+            <Border Grid.Row="6" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Fr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Francium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ra" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Radium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="3" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Rf" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Rutherfordium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="4" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Db" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Dubnium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="5" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Sg" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Seaborgium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="6" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Bh" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Bohrium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="7" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Hs" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Hassium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="8" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Mt" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Meitnerium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="9" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ds" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Darmstadium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="10" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Rg" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Roentgenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="11" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Cn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Copernicium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="12" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Nh" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Nihonium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="13" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Fl" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Flerovium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="14" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Mc" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Moscovium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="15" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Lv" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Livermorium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="16" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ts" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Tennessine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="17" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Og" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Oganesson" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <!--Row8-->
+            <Border Grid.Row="8" Grid.Column="3" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="La" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Lanthanum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="4" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ce" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Cerium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="5" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Pr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Praseodymium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="6" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Nd" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Neodymium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="7" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Pm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Promethium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="8" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Sm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Samarium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="9" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Eu" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Europium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="10" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Gd" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Gadolinium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="11" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Tb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Terbium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="12" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Dy" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Dysprosium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="13" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ho" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Holonium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="14" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Er" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Erbium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="15" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Tm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Thulium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="16" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Yb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Ytterbium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="17" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Lu" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Lutenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+            <!--Row9-->
+
+            <Border Grid.Row="9" Grid.Column="3" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Ac" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Actinium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="4" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Th" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Thorium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="5" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Pa" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Protactinium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="6" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="U" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Uranium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="7" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Np" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Neptunium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="8" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Pu" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Plutonium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="9" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Am" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Americium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="10" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Cm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Curium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="11" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Bk" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Berkium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="12" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Cf" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Californium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="13" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Es" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Einsteinium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="14" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Fm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Fermium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="15" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Md" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Mendelevium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="16" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="No" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Nobelium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="17" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
+                <Grid RowDefinitions="Auto, Auto">
+                    <Label Text="Lr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
+                    <Label Text="Lawrencium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                </Grid>
+            </Border>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
