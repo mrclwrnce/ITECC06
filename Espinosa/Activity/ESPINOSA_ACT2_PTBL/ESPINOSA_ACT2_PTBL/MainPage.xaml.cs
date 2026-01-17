@@ -9,6 +9,12 @@
             InitializeComponent();
         }
 
+        private void OnElementTapped(object sender, TappedEventArgs e)
+        {
+            var border = sender as Border;
+            var elementName = e.Parameter as string;
+            DisplayAlertAsync(elementName, $"You clicked the element {elementName}", "OK");
+        }
 
     }
 }

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ESPINOSA_ACT2_PTBL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+92323b8bef64c9a64f7c732c5b7e5ab6abea94ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+712686ed4d042772a071da9bacbeb355bb79c390")]
 [assembly: System.Reflection.AssemblyProductAttribute("ESPINOSA_ACT2_PTBL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ESPINOSA_ACT2_PTBL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
