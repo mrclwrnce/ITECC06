@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ESPINOSA_MdtACT1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25" VerticalOptions="Center">
+
+            <Label Text="User Management" FontSize="32" HorizontalOptions="Center"/>
+
+            <VerticalStackLayout>
+
+                <Entry x:Name="NameEntry" Placeholder="Enter Name" FontSize="18"/>
+                <Button Text="Add User" FontSize="18" Clicked="OnAddUserClicked"/>
+
+            </VerticalStackLayout>
+
+            <CollectionView ItemsSource="{Binding Users}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Grid Padding="10" ColumnDefinitions="*, auto, auto">
+
+                            <Label Text="{Binding Name}" FontSize="20" VerticalOptions="Center"/>
+                            <Button Grid.Column="2" Text="Delete" Background="Red" CommandParameter="{Binding .}" />
+                            <Button Grid.Column="1" Text="Edit" Background="Orange" CommandParameter="{Binding .}" />
+
+                        </Grid>
+
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+                
+            </CollectionView>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
