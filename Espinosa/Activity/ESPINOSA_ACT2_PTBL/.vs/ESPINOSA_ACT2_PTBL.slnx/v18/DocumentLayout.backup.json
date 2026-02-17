@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT2_PTBL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC31E731-A208-4C8F-97BC-588148E94F8F}|ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act2_ptbl\\espinosa_act2_ptbl\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FC31E731-A208-4C8F-97BC-588148E94F8F}|ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL.csproj|solutionrelative:espinosa_act2_ptbl\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B2D68598-C9D0-3AF7-2951-FA2A2C660385}|ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act2_ptbl\\espinosa_act2_ptbl\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2D68598-C9D0-3AF7-2951-FA2A2C660385}|ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL.csproj|solutionrelative:espinosa_act2_ptbl\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D68598-C9D0-3AF7-2951-FA2A2C660385}|ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act2_ptbl\\espinosa_act2_ptbl\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D68598-C9D0-3AF7-2951-FA2A2C660385}|ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL.csproj|solutionrelative:espinosa_act2_ptbl\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ESPINOSA_ACT2_PTBL\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL\\MainPage.xaml.cs",
+              "RelativeToolTip": "ESPINOSA_ACT2_PTBL\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:05:24.311Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +42,9 @@
               "RelativeDocumentMoniker": "ESPINOSA_ACT2_PTBL\\MainPage.xaml",
               "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT2_PTBL\\ESPINOSA_ACT2_PTBL\\MainPage.xaml",
               "RelativeToolTip": "ESPINOSA_ACT2_PTBL\\MainPage.xaml",
-              "ViewState": "AgIAAPICAAAAAAAAAAAAABADAABOAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADAAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-10T10:20:07.297Z",
+              "WhenOpened": "2026-01-17T09:18:22.858Z",
               "EditorCaption": ""
             }
           ]

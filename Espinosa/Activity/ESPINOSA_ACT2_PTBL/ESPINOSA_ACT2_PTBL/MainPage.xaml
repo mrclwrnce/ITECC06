@@ -45,13 +45,21 @@
 
             <!--Row0-->
             <Border Grid.Row="0" Grid.Column="0" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10"  Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Hydrogen"/>
+                </Border.GestureRecognizers>
+                    <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="1" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="H" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Hydrogen" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="0" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Helium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="2" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="He" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Helium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
@@ -60,56 +68,88 @@
             <!--Row1-->
 
             <Border Grid.Row="1" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Lithium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="3" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Li" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Lithium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="1" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Berylium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="4" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Be" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Berylium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="1" Grid.Column="12" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Boron"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="5" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="B" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Boron" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="1" Grid.Column="13" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Carbon"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="6" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="C" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Carbon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="1" Grid.Column="14" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Nitrogen"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="7" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="N" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Nitrogen" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="1" Grid.Column="15" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Oxygen"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="8" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="O" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Oxygen" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="1" Grid.Column="16" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Flourine"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="9" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="F" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Flourine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="1" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Neon"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="10" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ne" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Neon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
@@ -118,56 +158,88 @@
             <!--Row2-->
 
             <Border Grid.Row="2" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Sodium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="11" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Na" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Sodium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="2" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Magnesium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="12" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Mg" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Magnesium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Magnesium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="2" Grid.Column="12" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Aluminum"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="13" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Al" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Aluminum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Aluminum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="2" Grid.Column="13" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Silicon"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="14" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Si" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Silicon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="2" Grid.Column="14" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Phosphorus"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="15" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="P" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Phosphorus" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Phosphorus" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="2" Grid.Column="15" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Sulfur"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="16" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="S" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Sulfur" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="2" Grid.Column="16" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Chlorine"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="17" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Cl" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Chlorine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
 
             <Border Grid.Row="2" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Argon"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="18" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ar" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Argon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
@@ -176,109 +248,181 @@
             <!--Row3-->
 
             <Border Grid.Row="3" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Potassium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="19" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="K" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Potassium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Potassium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Calcium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="20" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ca" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Calcium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="2" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Scandium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="21" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Sc" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Scandium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Scandium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="3" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Titanium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="22" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ti" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Titanium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="4" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Vanadium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="23" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="V" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Vanadium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Vanadium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="5" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Chromium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="24" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Cr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Chromium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Chromium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="6" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Manganese"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="25" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Mn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Manganese" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Manganese" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="7" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Iron"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="26" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Fe" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Iron" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="8" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Cobalt"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="27" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Co" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Cobalt" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="9" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Nickel"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="28" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ni" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Nickel" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="10" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Copper"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="29" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Cu" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Copper" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="11" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Zinc"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="30" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Zn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Zinc" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="12" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Gallium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="31" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ga" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Gallium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="13" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Germanium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="32" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ge" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Germanium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Germanium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="14" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Arsenic"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="33" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="As" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Arsenic" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="15" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Selenium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="34" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Se" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Selenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="16" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Bromine"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="35" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Br" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Bromine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="3" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Krypton"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="36" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Kr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Krypton" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
@@ -287,109 +431,181 @@
             <!--Row4-->
 
             <Border Grid.Row="4" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Rubidium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="37" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Rb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Rubidium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Strontium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="38" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Sr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Strontium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Strontium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="2" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Yttrium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="39" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Y" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Yttrium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="3" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Zirconium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="40" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Zr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Zirconium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Zirconium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="4" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Niobium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="41" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Nb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Niobium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="5" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Molybdenum"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="42" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Mo" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Molybdenum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
+                    <Label Text="Molybdenum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="7" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="6" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Technetium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="43" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Tc" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Technetium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Technetium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="7" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Ruthenium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="44" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ru" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Ruthenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Ruthenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="8" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Rhodium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="45" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Rh" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Rhodium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="9" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Palladium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="46" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Pd" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
-                    <Label Text="Palladium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
+                    <Label Text="Palladium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="10" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Silver"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="47" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ag" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Silver" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="11" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Cadmium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="48" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Cd" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Cadmium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="12" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Indium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="49" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="In" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Indium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="13" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Tin"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="50" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Sn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Tin" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="14" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Antimony"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="51" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Sb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Antimony" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="15" BackgroundColor="Yellow" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Tellerium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="52" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Te" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Tellerium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="16" BackgroundColor="LightBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Iodine"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="53" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="I" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Iodine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="4" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Xenon"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="54" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Xe" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Xenon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
@@ -398,103 +614,171 @@
             <!--Row5-->
 
             <Border Grid.Row="5" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Caesium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="55" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Cs" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Caesium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Barium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="56" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ba" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Barium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="3" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Halfnium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="72" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Hf" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Halfnium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="4" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Tantalum"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="73" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ta" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Tantalum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="5" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Tungsten"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="74" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="W" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Tungsten" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="6" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Rhenium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="75" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Re" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Rhenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="7" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Osmium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="76" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Os" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Osmium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="8" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Iridium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="77" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ir" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Iridium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="9" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Platinum"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="78" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Pt" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Platinum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="10" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Gold"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="79" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Au" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Gold" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="11" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Mercury"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="80" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Hg" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Mercury" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="12" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Thallium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="81" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Tl" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Thallium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="13" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Lead"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="82" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Pb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Lead" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="14" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Bismuth"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="83" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Bi" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Bismuth" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="15" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Polonium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="84" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Po" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Polonium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="16" BackgroundColor="Violet" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Astatine"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="85" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="At" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Astatine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="5" Grid.Column="17" BackgroundColor="LightGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Radon"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="86" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Rn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Radon" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
@@ -502,103 +786,171 @@
 
             <!--Row6-->
             <Border Grid.Row="6" Grid.Column="0" BackgroundColor="LightPink" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Francium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="87" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Fr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Francium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="1" BackgroundColor="LightSalmon" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Radium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="88" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ra" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Radium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="3" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Rutherfordium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="104" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Rf" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Rutherfordium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="4" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Dubnium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="105" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Db" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Dubnium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="5" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Seaborgium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="106" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Sg" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Seaborgium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="6" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Bohrium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="107" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Bh" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Bohrium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="7" BackgroundColor="Orange" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Hassium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="108" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Hs" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Hassium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="8" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Meitnerium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="109" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Mt" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Meitnerium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="9" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Darmstadium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="110" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ds" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Darmstadium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="10" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Roentgenium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="111" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Rg" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Roentgenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="11" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Copernicium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="112" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Cn" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Copernicium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="12" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Mihonium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="113" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Nh" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Nihonium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="13" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="FLervonium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="114" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Fl" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Flerovium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="14" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Moscovium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="115" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Mc" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Moscovium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="15" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Livermorium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="116" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Lv" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Livermorium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="16" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Tennessine"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="117" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ts" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Tennessine" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="6" Grid.Column="17" BackgroundColor="IndianRed" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Oganesson"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="118" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Og" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Oganesson" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
@@ -606,91 +958,151 @@
 
             <!--Row8-->
             <Border Grid.Row="8" Grid.Column="3" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Lanthanum"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="57" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="La" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Lanthanum" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="4" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Cerium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="58" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ce" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Cerium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="5" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Praseodymium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="59" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Pr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Praseodymium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="8" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="6" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Neodymium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="60" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Nd" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Neodymium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="7" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Promethium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="61" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Pm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Promethium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="8" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Samarium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="62" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Sm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Samarium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="9" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Europium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="63" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Eu" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Europium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="10" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Gadolinium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="64" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Gd" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Gadolinium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="11" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Terbium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="65" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Tb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Terbium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="12" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Dysprosium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="66" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Dy" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Dysprosium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="13" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Holonium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="67" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ho" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Holonium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="14" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Erbium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="68" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Er" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Erbium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="15" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Thullium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="69" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Tm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Thulium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="16" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Ytterbium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="70" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Yb" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Ytterbium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="8" Grid.Column="17" BackgroundColor="CornflowerBlue" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Lutenium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="71" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Lu" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Lutenium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
@@ -699,91 +1111,151 @@
             <!--Row9-->
 
             <Border Grid.Row="9" Grid.Column="3" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Actinium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="89" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Ac" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Actinium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="4" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Thorium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="90" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Th" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Thorium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="5" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Protactinium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="91" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Pa" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Protactinium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="6" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Uranium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="92" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="U" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Uranium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="7" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Neptunium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="93" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Np" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Neptunium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="8" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Plutonium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="94" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Pu" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Plutonium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="9" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Americium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="95" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Am" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Americium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="10" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Curium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="96" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Cm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Curium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="11" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Berkium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="97" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Bk" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Berkium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="12" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Californium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="98" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Cf" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Californium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="13" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Einsteinium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="99" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Es" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Einsteinium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="14" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Fermium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="100" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Fm" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Fermium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="15" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Mendelevium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="101" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Md" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Mendelevium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="9" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="16" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Nobelium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="102" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="No" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Nobelium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
             </Border>
             <Border Grid.Row="9" Grid.Column="17" BackgroundColor="ForestGreen" StrokeShape="RoundRectangle 10" Padding="5">
-                <Grid RowDefinitions="Auto, Auto">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnElementTapped" CommandParameter="Lawrencium"/>
+                </Border.GestureRecognizers>
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="103" Grid.Row="0" Grid.Column="1" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" TextColor="Black"/>
                     <Label Text="Lr" HorizontalOptions="Center" VerticalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="Black"/>
                     <Label Text="Lawrencium" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" FontSize="10" TextColor="Black"/>
                 </Grid>
