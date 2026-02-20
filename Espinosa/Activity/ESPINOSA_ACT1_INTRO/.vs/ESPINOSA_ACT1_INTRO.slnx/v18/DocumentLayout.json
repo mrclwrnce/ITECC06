@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\class\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|solutionrelative:espinosa_act1_intro\\class\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\class\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|solutionrelative:espinosa_act1_intro\\class\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\admin\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|solutionrelative:espinosa_act1_intro\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\admin\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\class\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|solutionrelative:espinosa_act1_intro\\class\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\admin\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\class\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|solutionrelative:espinosa_act1_intro\\class\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\admin\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|solutionrelative:espinosa_act1_intro\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\marclawrenceespinosa\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|c:\\users\\admin\\documents\\itecc06\\espinosa\\activity\\espinosa_act1_intro\\espinosa_act1_intro\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B55F7AA-67B0-1DC5-8A59-F8C27991BF91}|ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO.csproj|solutionrelative:espinosa_act1_intro\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,28 +30,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CRUD.cs",
-              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\Class\\CRUD.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\Class\\CRUD.cs",
               "RelativeDocumentMoniker": "ESPINOSA_ACT1_INTRO\\Class\\CRUD.cs",
-              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\Class\\CRUD.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\Class\\CRUD.cs",
               "RelativeToolTip": "ESPINOSA_ACT1_INTRO\\Class\\CRUD.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAqwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T12:42:31.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\Class\\Connection.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\Class\\Connection.cs",
               "RelativeDocumentMoniker": "ESPINOSA_ACT1_INTRO\\Class\\Connection.cs",
-              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\Class\\Connection.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\Class\\Connection.cs",
               "RelativeToolTip": "ESPINOSA_ACT1_INTRO\\Class\\Connection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,23 +59,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MainPage.xaml",
               "RelativeDocumentMoniker": "ESPINOSA_ACT1_INTRO\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MainPage.xaml",
               "RelativeToolTip": "ESPINOSA_ACT1_INTRO\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-13T10:52:02.223Z"
+              "WhenOpened": "2025-12-13T10:52:02.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "ESPINOSA_ACT1_INTRO\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MainPage.xaml.cs",
               "RelativeToolTip": "ESPINOSA_ACT1_INTRO\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,9 +86,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MauiProgram.cs",
               "RelativeDocumentMoniker": "ESPINOSA_ACT1_INTRO\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\MarcLawrenceEspinosa\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ITECC06\\Espinosa\\Activity\\ESPINOSA_ACT1_INTRO\\ESPINOSA_ACT1_INTRO\\MauiProgram.cs",
               "RelativeToolTip": "ESPINOSA_ACT1_INTRO\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

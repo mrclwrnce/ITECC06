@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EspinosaHomeAct.MainPage">
+
+    <Grid BackgroundColor="DarkGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="2"/>
+            <ColumnDefinition Width="6*" />
+        </Grid.ColumnDefinitions>
+
+        <VerticalStackLayout Padding="20,20" Spacing="25" Grid.Column="0" BackgroundColor="Gray">
+            <Label Text="Add a Contact" FontSize="20" Padding="0, 20"/>
+            <Entry x:Name="NameEntry" Placeholder="Enter Name" FontSize="18" BackgroundColor="DarkGray"/>
+            <Entry x:Name="NumberEntry" Placeholder="Enter Contact No." FontSize="18" BackgroundColor="DarkGray"/>
+            <Button Text="Add User" FontSize="18" Clicked="OnAddUserClicked"/>
+        </VerticalStackLayout>
+
+        <BoxView Grid.Column="1" WidthRequest="1" BackgroundColor="Gray" VerticalOptions="Fill" />
+
+        <ScrollView Grid.Column="2" Padding="10, 10">
+            <CollectionView ItemsSource="{Binding Users}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Padding="10" Margin="0,0,0,10" StrokeShape="8" BackgroundColor="Gray" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+
+                                <VerticalStackLayout Grid.Column="0">
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" TextColor="White"/>
+                                    <Label Text="{Binding PhoneNumber}" TextColor="White"/>
+
+                                </VerticalStackLayout>
+                                
+                                <Button Text="×" Grid.Column="1" BackgroundColor="Gray" TextColor="White" WidthRequest="40" HeightRequest="40" CornerRadius="20" HorizontalOptions="End" CommandParameter="{Binding .}" Clicked="OnDeleteUserClicked"/>
+                                <Button Text="⟳" Grid.Column="2" BackgroundColor="Gray" TextColor="White" WidthRequest="40" HeightRequest="40" CornerRadius="20" HorizontalOptions="End" CommandParameter="{Binding .}" Clicked="OnEditUserClicked"/>
+                            </Grid>
+                            
+                            
+                            
+                        </Border>
+
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+        </ScrollView>
+
+
+
+
+
+    </Grid>
+
+</ContentPage>
