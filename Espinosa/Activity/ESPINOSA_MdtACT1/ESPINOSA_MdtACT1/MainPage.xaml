@@ -22,8 +22,8 @@
                         <Grid Padding="10" ColumnDefinitions="*, auto, auto">
 
                             <Label Text="{Binding Name}" FontSize="20" VerticalOptions="Center"/>
-                            <Button Grid.Column="2" Text="Delete" Background="Red" CommandParameter="{Binding .}" />
-                            <Button Grid.Column="1" Text="Edit" Background="Orange" CommandParameter="{Binding .}" />
+                            <Button Grid.Column="2" Text="Delete" Background="Red" CommandParameter="{Binding .}" Clicked="OnDeleteUserClicked" />
+                            <Button Grid.Column="1" Text="Edit" Background="Orange" CommandParameter="{Binding .}" Clicked="OnEdit"/>
 
                         </Grid>
 

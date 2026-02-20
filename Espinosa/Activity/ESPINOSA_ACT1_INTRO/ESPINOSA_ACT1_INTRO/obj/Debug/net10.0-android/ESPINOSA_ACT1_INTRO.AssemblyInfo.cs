@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ESPINOSA_ACT1_INTRO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+583cc3994d51dba7b549ba15b45d2f2c8b16a1a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ESPINOSA_ACT1_INTRO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ESPINOSA_ACT1_INTRO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
